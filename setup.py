@@ -63,12 +63,14 @@ setup(
     # https://packaging.python.org/en/latest/requirements.html
 
     install_requires=[
-        'sleekxmpp>=1.3',
+        'sleekxmpp==1.3.1',
         'click>=6',
         'requests>=2.18',
         'pycryptodome>=3.4',
         'pycountry-convert>=0.5',
-        'stringcase>=1.2'
+        'stringcase>=1.2',
+        'pyasn1==0.3.7',
+        'pyasn1-modules==0.1.5'
     ],
 
     # List additional groups of dependencies here (e.g. development
